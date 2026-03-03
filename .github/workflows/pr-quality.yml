@@ -31,4 +31,4 @@ jobs:
           npm ci --omit=dev
 
       - name: Security audit (runtime deps high+)
-        run: npm audit --audit-level=high
+        run: npm audit --omit=dev --audit-level=high
