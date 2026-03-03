@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad)" />
+  <!-- Brain Outline -->
+  <path d="M150 150 C 100 150, 80 250, 100 300 C 120 350, 180 380, 256 380 C 330 380, 390 350, 410 300 C 430 250, 410 150, 360 150 C 340 150, 320 160, 300 180 C 280 160, 260 140, 256 120 C 252 140, 230 160, 210 180 C 190 160, 170 150, 150 150 Z" fill="#A78BFA" stroke="#FFF" stroke-width="10"/>
+  <!-- Happy Face -->
+  <circle cx="180" cy="280" r="20" fill="white"/>
+  <circle cx="330" cy="280" r="20" fill="white"/>
+  <circle cx="180" cy="280" r="8" fill="black"/>
+  <circle cx="330" cy="280" r="8" fill="black"/>
+  <path d="M 200 340 Q 256 380 310 340" stroke="white" stroke-width="15" fill="none" stroke-linecap="round"/>
+</svg>
