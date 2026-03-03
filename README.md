@@ -4,8 +4,10 @@ Interactive kids math learning app built with React, TypeScript, Vite, and Tailw
 
 ## CI/CD
 
-- CI runs on every pull request and on `main`.
-- CI currently validates install + production build.
+- `CI` runs on every pull request to `main` and validates install + production build.
+- `PR Quality Gate` runs on every pull request to `main` and enforces:
+  - typecheck + build
+  - dependency audit (`npm audit --audit-level=high`)
 - Vercel is connected to this repository and handles deployments.
 
 ## Approval Flow (Recommended)
