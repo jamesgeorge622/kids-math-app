@@ -7,8 +7,7 @@ Interactive kids math learning app built with React, TypeScript, Vite, and Tailw
 - `CI` runs on every pull request to `main` and validates install + production build.
 - `PR Quality Gate` runs on every pull request to `main` and enforces:
   - typecheck + build
-  - production dependency audit (`npm audit --omit=dev --audit-level=high`)
-  - full dependency audit for critical issues (`npm audit --audit-level=critical`)
+  - production-only reinstall (`npm ci --omit=dev`) and runtime dependency audit (`npm audit --audit-level=high`)
 - Vercel is connected to this repository and handles deployments.
 
 ## Approval Flow (Recommended)
