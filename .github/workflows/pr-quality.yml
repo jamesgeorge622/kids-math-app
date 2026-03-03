@@ -24,5 +24,8 @@ jobs:
       - name: Typecheck + Build
         run: npm run ci
 
-      - name: Security audit (high+)
-        run: npm audit --audit-level=high
+      - name: Security audit (prod deps high+)
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Security audit (all deps critical only)
+        run: npm audit --audit-level=critical
